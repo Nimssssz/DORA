@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    justify-content: center; /* Centers the navbar content horizontally */
+    align-items: center; /* Ensures vertical alignment of items */
+    background-color: #ffffff; /* Background color of the navbar */
+    padding: 10px 20px; /* Padding for the navbar */
+    border-bottom: 1px solid #ccc; /* Optional border for separation */
+    position: fixed; /* Fixes the navbar at the top of the viewport */
+    top: 0; /* Aligns it to the top */
+    left: 0; /* Ensures it starts from the left edge */
+    right: 0; /* Ensures it spans the full width */
+    z-index: 1000; /* Keeps it on top of other content */
+}
+
+.navbar-options {
+    display: flex; /* Displays the navbar items in a row */
+    gap: 20px; /* Adds space between the items */
+}
+
+.navbar-item {
+    display: flex;
+    flex-direction: column; /* Ensures icon and label stack vertically */
+    align-items: center; /* Centers icon and label horizontally */
+    cursor: pointer; /* Changes cursor on hover */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.navbar-item.active {
+    transform: scale(1.1); /* Slightly enlarges active item */
+    font-weight: bold; /* Makes the text bold */
+    color: #007BFF; /* Highlights the active item */
+}
+
+.navbar-item:hover {
+    transform: scale(1.05); /* Slightly enlarges item on hover */
+}
+
+.navbar-icon {
+    width: 40px; /* Icon width */
+    height: 40px; /* Icon height */
+    margin-bottom: 5px; /* Space between icon and label */
+}
+
+.navbar-label {
+    font-size: 12px; /* Text size for labels */
+    text-align: center; /* Centers the text */
+}

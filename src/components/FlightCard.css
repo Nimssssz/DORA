@@ -1,0 +1,42 @@
+:root {
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(
+    to right,
+    hsl(187, 85%, 43%),
+    hsl(199, 100%, 33%)
+  );
+  --WhiteColor: hsl(0, 0%, 100%);
+  --BlackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --WhiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 246);
+  --cardBG: rgb(225, 225, 235);
+}
+
+.bg {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(33, 33, 33, 0.522), rgba(33, 33, 33, 0.522)),
+    url(../assets/BG.jpg);
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Ensure background stays behind other content */
+}
+
+.Card {
+  margin: 100px auto; /* Center card horizontally while keeping top margin */
+  max-width: 1000px; /* Adjust max width as needed */
+  background-color: var(--WhiteColor);
+  color: var(--BlackColor);
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsl(0, 0%, 0.0001%);
+  padding: 20px;
+}
+
