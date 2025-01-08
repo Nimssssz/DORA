@@ -4,7 +4,7 @@
     align-items: center; /* Ensures vertical alignment of items */
     background-color: #ffffff; /* Background color of the navbar */
     padding: 10px 20px; /* Padding for the navbar */
-    border-bottom: 1px solid #ccc; /* Optional border for separation */
+    border-bottom: 1px solid #ccc; 
     position: fixed; /* Fixes the navbar at the top of the viewport */
     top: 0; /* Aligns it to the top */
     left: 0; /* Ensures it starts from the left edge */

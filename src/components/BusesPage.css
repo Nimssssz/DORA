@@ -166,3 +166,27 @@ body {
   outline: none;
   border-color: #3366cc;
 }
+
+.search-button {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  padding: 12px;
+  background-color: #3366cc;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.search-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05);
+}
+
+.search-button:active {
+  background-color: #003f7f; /* Even darker blue on click */
+  transform: scale(0.95);
+}
